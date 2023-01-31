@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm Ayush Suryavanshi</h1>
 <h3 align="center">A passionate Web developer fromNIndia</h3>
 
-<img align="right"alt="coding"width="400"src="image.png"
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ayushsuryavanshi&label=Profile%20views&color=0e75b6&style=flat" alt="ayushsuryavanshi" /> </p>
 
 - 👨‍💻 All of my projects are available at [www.linkedin.com/in/ayush-suryavanshi-b05b69228](www.linkedin.com/in/ayush-suryavanshi-b05b69228)
