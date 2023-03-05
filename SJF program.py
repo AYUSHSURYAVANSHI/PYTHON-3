@@ -1,7 +1,6 @@
 # SJF: Shortest Job First                   
 # Python3 program for implementation of  
-# Shortest Remaining Time first 
-  
+# Shortest Remaining Time first  
 # Function to find the waiting time  
 # for all processes  
 def findWaitingTime(processes, n, wt):  
@@ -54,11 +53,10 @@ def findWaitingTime(processes, n, wt):
             fint = t + 1
   
             # Calculate waiting time  
-            wt[short] = (fint - proc[short][1] -    
-                                proc[short][2]) 
+            wt[short] = (fint - proc[short][1] - proc[short][2]) 
   
             if (wt[short] < 0): 
-                wt[short] = 0
+                 wt[short] = 0
           
         # Increment time  
         t += 1
@@ -85,21 +83,18 @@ def findavgTime(processes, n):
     findTurnAroundTime(processes, n, wt, tat)  
   
     # Display processes along with all details  
-    print("Processes    Burst Time     Waiting Time     Turn-Around Time") 
+    print("Processes    Burst Time     Waiting Time     Turn-Around Time")   
     total_wt = 0
     total_tat = 0
     for i in range(n): 
-  
         total_wt = total_wt + wt[i]  
         total_tat = total_tat + tat[i]  
-        print(" ", processes[i][0], " ", processes[i][1], " ", wt[i], " ", tat[i]) 
+        print(" ", processes[i][0], "              ", processes[i][1], "                ", wt[i], "                 ", tat[i]) 
   
     print("Average waiting time = %.5f "%(total_wt /n) ) 
-    print("Average turn around time = ", total_tat / n)  
-      
+    print("Average turn around time = ", total_tat / n)        
 # Driver code  
-if __name__ =="__main__": 
-      
+if __name__ =="__main__":      
     # Process id's  
     proc = [[1, 6, 1], [2, 8, 1],[3, 7, 2], [4, 3, 3]] 
     n = 4
