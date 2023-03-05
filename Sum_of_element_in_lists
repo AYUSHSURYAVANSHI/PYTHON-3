@@ -1,0 +1,12 @@
+n=int(input("Enter the number of element in list :"))
+list=[ ]
+
+for i in range(0,n):
+    pip=int(input("Enter the element in list : "))
+    list.append(pip)
+
+print("Created list is : ",list)
+
+print("Sum of all element in list is ",sum(list))
+
+print("Ayush Suryavanshi \n")
